@@ -38,13 +38,13 @@ function crop_eaadhar(doc){
     doc.activeLayer = bgLayer;
 }
 
-if (typeof runTaskCaller === "undefined") {
-    // Ensure a document is open
-    if (app.documents.length === 0) {
-        alert("No document open.");
-    } else {
-        var doc = app.activeDocument;
-        crop_eaadhar(doc);
-        alert("Done!");
-    }
-}
+// if (typeof runTaskCaller === "undefined") {
+//     // Ensure a document is open
+//     if (app.documents.length === 0) {
+//         alert("No document open.");
+//     } else {
+//         var doc = app.activeDocument;
+//         crop_eaadhar(doc);
+//         alert("Done!");
+//     }
+// }
